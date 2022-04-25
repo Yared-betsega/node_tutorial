@@ -1,7 +1,7 @@
 {
-  "name": "node_tutorial",
+  "name": "genres",
   "version": "1.0.0",
-  "description": "My first node app",
+  "description": "An app for displaying movies",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/Yared-betsega/node_tutorial/issues"
   },
-  "homepage": "https://github.com/Yared-betsega/node_tutorial#readme"
+  "homepage": "https://github.com/Yared-betsega/node_tutorial#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "joi": "^17.6.0",
+    "mongoose": "^6.3.1"
+  },
+  "devDependencies": {
+    "jshint": "^2.13.4"
+  }
 }
