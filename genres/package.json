@@ -18,8 +18,11 @@
   "homepage": "https://github.com/Yared-betsega/node_tutorial#readme",
   "dependencies": {
     "express": "^4.17.3",
+    "fawn": "^2.1.5",
     "helmet": "^5.0.2",
     "joi": "^17.6.0",
+    "joi-objectid": "^4.0.2",
+    "lodash": "^4.17.21",
     "mongoose": "^6.3.1",
     "morgan": "^1.10.0"
   },
